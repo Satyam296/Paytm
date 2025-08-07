@@ -1,114 +1,77 @@
-Paytm Wallet Clone – Full Stack Project
-A secure, scalable digital wallet web app inspired by Paytm, allowing users to register, add money, transfer funds via phone number or QR code, and view transaction history in real time.
+# Paytm Wallet Clone
 
-Features
-User Registration & Login with JWT authentication
+> A secure, scalable digital wallet inspired by **Paytm**.  
+> Users can register, add money, transfer funds via phone or QR code, and view transaction history in real time.
 
-Add money to wallet securely
+---
 
-Transfer money to other users using phone numbers or scanning QR codes
+## Features
 
-View detailed transaction history with timestamps
+- 🔐 **User Registration & Login** with JWT authentication  
+- 💰 **Add Money** to wallet securely  
+- 📲 **Transfer Money** via phone number or QR code scanning  
+- 📜 **View Transaction History** with timestamps  
+- 🖼️ **Dynamic QR Code Generation** for payments  
+- ✅ **Input Validation** and security best practices  
+- ⚙️ *(Optional)* Admin dashboard to monitor users & transactions  
 
-Dynamic QR code generation for payments
+---
 
-Input validation and security best practices
+## Tech Stack
 
-(Optional) Admin dashboard to monitor users and transactions
+| Frontend             | Backend                | Other Tools                   |
+|----------------------|------------------------|------------------------------|
+| React.js / Next.js   | Node.js + Express.js   | MongoDB + Mongoose           |
+| TypeScript           | JWT Authentication     | QR Code Generation (`qrcode`)|
+| Tailwind CSS         | REST APIs              | Docker (optional)            |
+| Axios                |                        | Tesseract.js (OCR, optional) |
 
-Tech Stack
-Frontend:
+---
 
-React.js / Next.js (TypeScript)
+## Getting Started
 
-Tailwind CSS for responsive UI
+### Prerequisites
 
-Axios for API communication
+- Node.js v16+  
+- MongoDB (local or cloud)  
+- npm or yarn  
 
-Backend:
+### Installation
 
-Node.js + Express.js
-
-MongoDB with Mongoose ORM
-
-JWT-based authentication
-
-QR code generation (qrcode npm package)
-
-Optional / Additional:
-
-Docker for containerization
-
-Cloudinary for QR code image hosting
-
-Tesseract.js for OCR (if integrated)
-
-Getting Started
-Prerequisites
-Node.js (v16 or higher recommended)
-
-MongoDB (local or Atlas cluster)
-
-npm or yarn
-
-Installation
-Clone the repo
-
-bash
-Copy
-Edit
+```bash
+# Clone the repo
 git clone https://github.com/Satyam296/paytm-wallet-clone.git
 cd paytm-wallet-clone
-Setup Backend
 
-bash
-Copy
-Edit
+# Backend setup
 cd backend
 npm install
 npm run dev
-Setup Frontend
 
-bash
-Copy
-Edit
-cd frontend
+# Frontend setup (in a new terminal)
+cd ../frontend
 npm install
 npm run dev
-Open your browser at http://localhost:3000 (or the port your frontend runs on)
+```
 
-Screenshots
-Add screenshots here showing:
 
-User registration/login
+## Roadmap / Future Improvements
 
-Wallet dashboard
+- UPI integration (mock API)  
+- Wallet to bank withdrawals  
+- Real-time payment notifications  
+- Dark mode & PWA support  
+- Multi-language interface  
 
-QR code payment screen
+---
 
-Transaction history
+## Author
 
-Admin dashboard (if applicable)
+**Satyam Chhetri**  
+[LinkedIn](https://www.linkedin.com/in/satyam-chhetri-010447318) | [GitHub](https://github.com/Satyam296) | [Email](mailto:satyamchhetri629@gmail.com)
 
-Future Improvements
-UPI integration with mock APIs
+---
 
-Wallet to bank withdrawals
+## License
 
-Real-time notifications for transactions
-
-Dark mode & PWA support
-
-Multi-language support
-
-Author
-Satyam Chhetri
-
-LinkedIn: linkedin.com/in/satyam-chhetri-010447318
-
-GitHub: github.com/Satyam296
-
-Email: satyamchhetri629@gmail.com
-
-License
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
